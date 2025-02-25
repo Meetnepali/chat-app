@@ -1,0 +1,15 @@
+# Ignore Node modules in both client and server
+client/node_modules
+server/node_modules
+
+# Ignore environment files
+client/.env
+server/.env
+
+# Ignore build files
+client/build
+server/dist
+
+# Ignore editor and system files
+.vscode
+.DS_Store
